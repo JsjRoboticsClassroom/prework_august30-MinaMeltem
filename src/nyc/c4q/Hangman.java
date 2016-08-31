@@ -17,6 +17,10 @@ public class Hangman {
         return mMisses;
     }
 
+    public void setMisses(int newmMisses){
+        this.mMisses = newmMisses;
+    }
+
     public void readLetter() {
         Scanner scanner = new Scanner(System.in);
         char input = scanner.next().charAt(0);
